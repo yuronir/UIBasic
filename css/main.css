@@ -1,0 +1,138 @@
+ol, ul, dl {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.leftMenu, .container {
+	position: relative;
+}
+
+.leftMenu {
+
+}
+
+.container {
+	top:0px;
+	height: 100px;
+	line-height: 100px;
+}
+
+.logo {
+	position: absolute;
+	left: 0px;
+}
+
+.search_bar {
+	position: absolute;
+	left: 200px;
+}
+
+.user_menu_div {
+	position: absolute;
+	left: 900px;
+}
+
+.user_menu_ul > li {
+	float: left;
+	margin-left: 10px;
+}
+
+.submenu_title {
+	height: 50px;
+	width: 200px;
+}
+
+.price {
+	position: absolute;
+	width: 150px;
+	text-align: right;
+	color: blue;
+}
+
+.button_more_view {
+	top: 0px;
+	left: 850px;
+	width: 100px;
+	text-align: center;
+	color: white;
+	line-height: 30px;
+	background-color: #1bb5ff;
+}
+
+#body_content, #weekly_bestseller, #wb_title, #wb_view_more, #wb_content,
+#recommendation, #reco_title, #reco_view_more, #reco_content,
+#wb_1, #wb_2, #wb_3, #wb_4, #wb_5,
+#rec_1, #rec_2, #rec_3, #rec_4, #rec_5 {
+	position: absolute;
+}
+
+#leftMenu {
+	top: 100px;
+	left: 0px;
+}
+
+#body_content {
+	top : 100px;
+	left: 200px;	
+}
+
+#weekly_bestseller {
+	top: 0px;
+	left: 0px;
+}
+
+#wb_title, #reco_title {
+	text-align: left;
+	line-height: 10px;
+	font-size: 22px;
+}
+
+#wb_title {
+	top: 0px;
+	left: 0px;
+
+}
+
+#wb_content {
+	top: 50px;
+	left: 0px;
+}
+
+#recommendation {
+	top : 400px;
+	left: 0px;
+}
+
+#reco_title {
+	top: 0px;
+	left: 0px;
+}
+
+#reco_content {
+	top: 50px;
+	left: 0px;
+}
+
+#wb_1, #rec_1 {
+	left: 0px;
+}
+
+#wb_2, #rec_2 {
+	left: 150px;
+	margin-left: 50px;
+}
+
+#wb_3, #rec_3 {
+	left: 300px;
+	margin-left: 100px;
+}
+
+#wb_4, #rec_4 {
+	left: 450px;
+	margin-left: 150px;
+}
+
+#wb_5, #rec_5 {
+	left: 600px;
+	margin-left: 200px;
+}
