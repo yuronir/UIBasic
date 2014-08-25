@@ -1,6 +1,11 @@
-ol, ul, dl {
+ol, ul, dl, dd, dt{
 	list-style: none;
-	padding-left: 0px;
+	padding: 0px;
+	margin: 0px;
+}	
+
+body {
+	font-family: "Roboto",Arial,sans-serif;
 }
 
 #body_content, #weekly_bestseller, #wb_title, #wb_view_more, #wb_content,
@@ -10,18 +15,51 @@ ol, ul, dl {
 	position: absolute;
 }
 
+#weekly_bestseller img, #recommendation img {
+		height: 200px;
+}
+
 #container, #leftMenu {
 	position: relative;
 }
 
+#container {
+	height: 60px;
+	line-height: 60px;
+}
+
 #leftMenu {
+	position: absolute;
 	top: 100px;
 	left: 0px;
+	width: 200px;
+	height: 240px;
+	display: block;
+	background-color: rgba(245,245,245,0.952941);
+}
+
+#title {
+	position: relative;
+	color : rgb(26,161,225);
+	display: list-item;
+	width : 200px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+}
+
+#library-link, #shop-link {
+	color: transparent;
+	display: list-item;
+	width : 200px;
+	height: 36px;
+	line-height: 36px;
 }
 
 #body_content {
 	top : 100px;
 	left: 200px;	
+	color: #333;
 }
 
 #weekly_bestseller {
@@ -38,7 +76,6 @@ ol, ul, dl {
 #wb_title {
 	top: 0px;
 	left: 0px;
-
 }
 
 #wb_content {
@@ -94,20 +131,30 @@ ol, ul, dl {
 
 .logo {
 	position: absolute;
+	width: 183px;
+	height:58px;
+	line-height: 58px;
 	left: 0px;
 	top: 0px;
+}
+
+.logo > img {
+	 width:183px;
+	 height:39px;
+	 line-height:39px;
+	 vertical-align: middle;
 }
 
 .search_bar {
 	position: absolute;
 	left: 200px;
-	top: 50px;
+	top: 0px;
 }
 
 .user_menu {
 	position: absolute;
 	left: 900px;
-	top:50px;
+	top:0px;
 }
 
 .submenu_title {
